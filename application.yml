@@ -1,0 +1,4 @@
+#common configuration shared between all applications
+configserver:
+    name: IGVM JHipster Registry
+    status: Connected to the IGVM JHipster Registry.

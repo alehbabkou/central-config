@@ -1,0 +1,12 @@
+# "dev" profile is used for services running on developmers machines
+spring:
+    datasource:
+        url: jdbc:postgresql://172.20.30.11:5432/igvm-dev?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory
+        username: test
+        password: !QAZ2wsx                 
+
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: 6c711085044fa7b7db6f70485acf75faeea89674
